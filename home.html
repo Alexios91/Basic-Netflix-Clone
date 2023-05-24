@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My LabTV</title>
+    <link rel="icon" href="img/favicon.png">
+    <link rel="stylesheet" href="home.css">
+    <script src="home.js"></script>
+</head>
+
+<body>
+    <nav id="navbar">
+        <img src="img/logo.png">
+
+        <div id="nav1">
+            <a href="#">Home</a>
+            <a href="#film">Film</a>
+            <a href="#serietv">Serie TV</a>
+            <a href="#anime">Anime</a>
+        </div>
+
+        <div id="account">
+            <a href="#">Account</a>
+            <img src="img/account.png">
+        </div>
+    </nav>
+
+    <div class="wrapper">
+        <header id="copertina">
+            <div id="videoCopertina">
+                <video autoplay muted loop>
+                    <source src="img/film/Interstellar.mp4">
+                </video>
+            </div>
+
+            <div id="titolo">
+                <img src="img/film/interstellar.png">
+                <p class="info">In un futuro non precisato, un drastico cambiamento climatico colpisce duramente
+                    l'agricoltura. Il granturco è l'unica coltivazione ancora in grado di crescere ed un gruppo di
+                    scienziati è intenzionato ad attraversare lo spazio per trovare nuovi luoghi adatti a coltivarlo.
+                </p>
+            </div>
+
+            <div id="bottoni">
+                <button id="play"><img src="img/play.png">Riproduci</button>
+                <button id="extra"><img src="img/info.png">Altre info</button>
+                <button id="volume"><img id="vol" src="img/muto.png"></button>
+            </div>
+        </header>
+
+        <section id="container2">
+
+            <h1 class="categoria">Scelto per te</h1>
+            <div class="container-categoria">
+                <div class="card">
+                    <video class="vid" muted loop poster="img/film/lord.webp">
+                        <source src="img/film/lord.mp4">
+                    </video>
+                    <h4>Il Signore degli Anelli - La Compagnia dell'Anello</h4>
+                    <p>Un giovane hobbit e un variegato gruppo, composto da umani, un nano, un elfo e altri hobbit,
+                        partono per un delicata missione, guidati dal potente mago Gandalf. Devono distruggere un anello
+                        magico e sconfiggere così il malvagio Sauron.</p>
+                </div>
+            </div>
+
+            <h1 class="categoria" id="film">Film</h1>
+            <div class="container-categoria">
+                <div class="card">
+                    <img src="img/film/madagascar.webp">
+                    <h4>Madagascar</h4>
+                    <p>Una zebra in uno zoo, stanca della vita in cattività, decide di scappare, sfruttando un'ingegnosa
+                        idea di un gruppo di pinguini. Quando i suoi amici si accorgono della sua scomparsa, decidono di
+                        andarlo a cercare per riportarlo indietro.</p>
+                </div>
+                <div class="card">
+                    <img src="img/film/fabbrica.webp">
+                    <h4>La fabbrica di cioccolato</h4>
+                    <p>Cinque biglietti d'oro sono nascosti in altrettante tavolette di cioccolato. I fortunati bambini
+                        che riescono a trovarli possono varcare i cancelli della Fabbrica di Cioccolato del signor Wonka
+                        ed entrare così in contatto con il suo magico mondo di dolci e bontà. Trai tanti bambini che
+                        sperano di avere una possibilità di vincere c'è il piccolo Charlie.</p>
+                </div>
+                <div class="card">
+                    <video class="vid" muted loop poster="img/film/inception.webp">
+                        <source src="img/film/Inception.mp4">
+                    </video>
+                    <h4>Inception</h4>
+                    <p>Dom Cobb possiede una qualifica speciale: è in grado di inserirsi nei sogni altrui per prelevare
+                        i segreti nascosti nel più profondo del subconscio. Viene contattato da Saito, un potentissimo
+                        industriale giapponese.</p>
+                </div>
+                <div class="card">
+                    <img src="img/film/dorado.webp">
+                    <h4>La strada per El Dorado</h4>
+                    <p>Due truffatori spagnoli vincono una mappa per la leggendaria città dell'oro, ma quando arrivano a
+                        El Dorado, le cose prendono una piega diversa.</p>
+                </div>
+                <div class="card">
+                    <img src="img/film/justice.webp">
+                    <h4>Justice League</h4>
+                    <p>Dopo aver riconquistato la fede nell'umanità e grazie all'atto di altruismo compiuto da Superman,
+                        Bruce Wayne chiede aiuto alla sua nuova alleata, Diana Prince, per affrontare un nemico molto
+                        pericoloso.</p>
+                </div>
+            </div>
+
+            <h1 class="categoria" id="serietv">Serie TV</h1>
+            <div class="container-categoria">
+                <div class="card">
+                    <video class="vid" muted loop poster="img/serietv/dark.jpg">
+                        <source src="img/serietv/Dark.mp4">
+                    </video>
+                    <h4>Dark</h4>
+                    <p>La scomparsa di due bambini in una città tedesca e le conseguenti ricerche porteranno alla luce
+                        misteri e oscuri segreti che questa piccola cittadina nasconde, rivelando i rapporti e il
+                        passato di quattro famiglie che vi abitano.</p>
+                </div>
+                <div class="card">
+                    <video class="vid" muted loop poster="img/serietv/bad.webp">
+                        <source src="img/serietv/Breaking Bad.mp4">
+                    </video>
+                    <h4>Breaking Bad</h4>
+                    <p>Un professore di chimica di un liceo di Albuquerque. Quando scopre di essere in fin di vita a
+                        causa di un cancro ai polmoni, decide di usare il suo talento per produrre metanfetamine per
+                        guadagnare abbastanza denaro da destinare alla moglie Skyler e ai figli Walter Junior e Holly.
+                    </p>
+                </div>
+                <div class="card">
+                    <img src="img/serietv/peaky.jpg">
+                    <h4>Peaky Blinders</h4>
+                    <p>Nella Birmingham del 1919, il boss della malavita Tommy Shelby è sempre più deciso a farsi strada
+                        nella vita, a qualunque prezzo.</p>
+                </div>
+                <div class="card">
+                    <img src="img/serietv/umbrella.jpg">
+                    <h4>The Umbrella Academy</h4>
+                    <p>Hargreeves un famoso imprenditore, raccoglie i membri dell'accademia poco dopo la loro nascita e
+                        li istruisce per salvare il mondo da una minaccia non specificata. Dopo la sua morte, i membri
+                        proseguiranno il suo programma per la salvezza del pianeta.</p>
+                </div>
+                <div class="card">
+                    <img src="img/serietv/witcher.jpg">
+                    <h4>The Witcher</h4>
+                    <p>In un mondo abitato da esseri umani, elfi, nani e altre specie magiche, l'equilibrio è sempre
+                        instabile. Le razze civilizzate devono infatti convivere con i mostri che li minacciano e per
+                        questo motivo sono stati creati dei guerrieri mutanti in grado di ucciderli: i witcher.</p>
+                </div>
+                <!-- <div class="card">
+                    <img src="img/serietv/locke.jpg">
+                    <h4>Locke & Key</h4>
+                    <p>Quando il padre della famiglia Locke viene assassinato in circostanze misteriose, i tre fratelli e la madre si trasferiscono a Key House, casa dei loro antenati, dove scoprono una serie di chiavi magiche che potrebbero essere collegate alla morte del padre.</p>
+                </div>   -->
+            </div>
+
+            <h1 class="categoria" id="anime">Anime</h1>
+            <div class="container-categoria">
+                <div class="card">
+                    <video class="vid" muted loop poster="img/anime/onepiece.webp">
+                        <source src="img/anime/One Piece.mp4">
+                    </video>
+                    <h4>One Piece: Stampede</h4>
+                    <p>Luffy e la ciurma di Cappello di Paglia partono alla volta della Fiera mondiale del Pirata. I
+                        filibustieri di tutto il mondo partecipano all'eccitante evento, durante il quale affrontano
+                        trappole e inganni per trovare il tesoro di Gold Roger.</p>
+                </div>
+                <div class="card">
+                    <img src="img/anime/pokemon.jpg">
+                    <h4>Pokémon: Le cronache di Arceus</h4>
+                    <p>Ash, Goh e Lucinda indagano sulla leggenda del mitico Pokémon Arceus e scoprono un complotto del
+                        Team Galassia che minaccia il mondo</p>
+                </div>
+                <div class="card">
+                    <img src="img/anime/sao.webp">
+                    <h4>Sword Art Online: Ordinal Scale</h4>
+                    <p>Sono tutti immersi in un nuovo gioco di "realtà aumentata" noto come Scala ordinale, ma Kirito ed
+                        i suoi amici scoprono un oscuro segreto che li metterà in pericolo</p>
+                </div>
+                <div class="card">
+                    <video class="vid" muted loop poster="img/anime/bat.webp">
+                        <source src="img/anime/BATMAN.mp4">
+                    </video>
+                    <h4>Batman Ninja</h4>
+                    <p>Batman e Catwoman stanno affrontando Gorilla Grodd all'interno dell'Arkham Asylum quando il
+                        primate attiva il macchinario che aveva realizzato all'interno della struttura: il Cavaliere
+                        Oscuro si ritrova quindi nel Giappone del periodo Edo.</p>
+                </div>
+                <div class="card">
+                    <video class="vid" muted loop poster="img/anime/city.webp">
+                        <source src="img/anime/City Hunter.mp4">
+                    </video>
+                    <h4>City Hunter: Private Eyes</h4>
+                    <p>Nuova missione per Ryo Saeba, questa volta impegnato a proteggere la modella Ai Shindo da
+                        un'organizzazione criminale coinvolta in una grossa cospirazione, volta a destabilizzare la
+                        città di Tokyo.</p>
+                </div>
+                <!-- <div class="card">
+                    <img src="img/anime/inuyasha.webp">
+                    <h4>Inuyasha: Il Film</h4>
+                    <p><button class="play"><img src="img/play.png"></button>
+                       <button class="extra"><img src="img/info.png"></button>
+                    </p>
+                </div> -->
+            </div>
+        </section>
+    </div>
+
+    <footer id="link">
+        <div class="logo">
+            <ul>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+            </ul>
+        </div>
+
+        <div class="links">
+            <ul>
+                <li><a href="#">Audiodescrizione</a></li>
+                <li><a href="#">Contattaci</a></li>
+                <li><a href="#">Preferenza per i cookie</a></li>
+                <li><a href="#">Carte regalo</a></li>
+                <li><a href="#">Opportunità di lavoro</a></li>
+                <li><a href="#">Condizioni di utilizzo</a></li>
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Informazioni sull'Azienda</a></li>
+            </ul>
+        </div>
+    </footer>
+
+</body>
+
+</html>

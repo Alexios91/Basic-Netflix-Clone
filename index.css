@@ -1,0 +1,188 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    max-width: 1700px;
+    margin: 0;
+    padding: 0;
+    background:url(img/sfondo.jpg) center center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* NAVBAR */
+#login{
+    float: right;    
+}
+
+#log, #sign{
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.2em;
+    min-width: 5em;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#log:hover, #sign:hover{
+    background-color: #d40303;
+    border-radius: 10%;
+}
+/* NAVBAR */
+
+
+/* CONTAINER */
+#container{
+    padding: 40px;
+    max-width: 700px;
+    margin: 100px auto;
+    text-align: center;
+    color: white;
+    display: block;
+}
+
+#container h2{
+    font-size: 3.5em;
+}
+
+#container h3{
+    font-size: 2em;
+}
+/* CONTAINER */
+
+/* MODULI */
+#modulo1{
+    display: none;
+}
+
+#modulo2{
+    display: none;
+}
+
+#modulo3{
+    display: none;
+}
+
+p{
+    text-align: center;
+    font-size: 1.5em;
+}
+
+
+#modulo1, #modulo2, #modulo3{
+    padding: 20px;
+    border: 3px solid #000000;
+    background-color: #ffffff;
+    min-width: 400px;
+    margin: 100px auto;
+    overflow: auto;
+    border-radius:10px;
+}
+
+#modulo1 h2, #modulo2 h2, #modulo3 h2{
+    color:#ff5e00;
+    font-size: 2em;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    margin: 0 0 25px;
+}
+
+#modulo1 ul, #modulo2 ul, #modulo3 ul{
+    max-width: 400px;
+    margin: 0 auto;
+    list-style: none;
+    padding: 0;
+}
+
+#modulo1 ul li, #modulo2 ul li, #modulo3 ul li{
+    padding: 10px 0;
+}
+
+#modulo1 ul input, #modulo2 ul input, #modulo3 ul input, #modulo3 ul textarea{
+    width: 100%;
+    font-size: 1em;
+    border:solid 1px #aaa;
+    background-color: #eee;
+    padding: 10px;
+}
+
+#modulo1 ul input.errore, #modulo2 ul input.errore{
+    border-color: #ff0000 !important;
+    background-color: #fff0f0 !important;
+}
+
+#modulo1 ul #ricorda, #modulo2 ul #privacy, #modulo3 ul #privacy{
+    width:auto;
+}
+
+#modulo1 ul label, #modulo2 ul label, #modulo3 ul label{
+    cursor:pointer;
+}
+
+#modulo1 ul input:focus, #modulo2 ul input:focus, #modulo3 ul input:focus{
+    background-color: #fff;
+    border-color:#285433;
+    outline: 0;
+}
+
+#modulo1 ul button, #modulo2 button, #modulo3 #button{
+    width: 100%;
+    font-size: 1em;
+    border:solid 1px #1e1818;
+    background-color:#1e1818;
+    padding: 12px;  
+    color:#fff;
+    cursor: pointer;
+}
+
+#modulo3 a{
+    text-decoration: none;
+    color:#fff;
+}
+
+#modulo1 ul button:hover, #modulo2 #button:hover, #modulo3 #button:hover{
+    border-color:#d40303;
+    background-color:#d40303;
+}
+
+#modulo1 form input.errore+span, #modulo2 form input.errore+span{
+    display: block;
+}
+
+#modulo2 form #privacy.errore+label, #modulo3 form #privacy.errore+label{
+    color: #ff0000;
+}
+
+#modulo1 span, #modulo2 span, #modulo3 span{
+    color:#ff0000;
+    margin-top: 3px;
+    display: none;
+    font-size: .9em;
+}
+
+.signup{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+.signup p{
+    font-size: 1.1em;
+	margin-right: 5px;
+}
+
+.signup a{
+    font-size: 1.1em;
+	text-decoration: none;
+    color: red;
+    cursor: pointer;
+}
+.signup a:hover {
+	text-decoration: underline;
+}
+/* MODULI */

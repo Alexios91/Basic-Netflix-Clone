@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My LabTV</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <nav id="navbar">
+        <img src="img/logo.png">
+
+        <div id="login">
+            <button id="log">Accedi</button>
+            <button id="sign">Registrati</button>
+        </div>
+    </nav>
+
+    <section id="container">
+        <div>
+            <h2>Film, serie TV e tanto altro. Senza limiti.</h2>
+            <h3>Guarda ciò che vuoi ovunque. Disdici quando vuoi.</h3>
+        </div>
+    </section>
+
+    <div id="modulo1">
+        <h2>Accedi</h2>
+        <form action="pagina.jsp" method="post" id="form1">
+            <ul>
+                <li>
+                    <input type="text" name="email" id="email" placeholder="Email" autocomplete="off">
+                    <span></span>
+                </li>
+                <li>
+                    <input type="password" name="pass" id="pass" placeholder="Password" autocomplete="off">
+                    <span></span>
+                </li>
+                <li>
+                    <input type="checkbox" name="ricorda" id="ricorda">
+                    <label for="ricorda">Ricordami</label>
+                </li>
+                <li>
+                    <button>Accedi</button>
+                </li>
+                <br>
+
+                <div class="signup">
+                    <p>Nuovo su LabTV?</p>
+                    <a id="sign2">Registrati ora</a>
+                </div>
+            </ul>
+        </form>
+    </div>
+
+    <div id="modulo2">
+        <h2>REGISTRATI ORA</h2>
+        <form action="pagina.jsp" method="post" id="form2">
+            <ul>
+                <li>
+                    <input type="text" name="email" id="email" placeholder="Email" autocomplete="off">
+                    <span></span>
+                </li>
+                <li>
+                    <input type="password" name="pass" id="pass" placeholder="Password" autocomplete="off">
+                    <span></span>
+                </li>
+                <li>
+                    <input type="password" name="confpass" id="confpass" placeholder="Conferma Password"
+                        autocomplete="off">
+                    <span></span>
+                </li>
+                <li>
+                    <input type="checkbox" name="privacy" id="privacy">
+                    <label for="privacy">Accetto le condizioni sulla privacy</label>
+                    <span></span>
+                </li>
+                <li>
+                    <button>Invia dati</button>
+                    <!-- <a href="home.html"><button id="button">Invia dati</button></a> -->
+                </li>
+            </ul>
+        </form>
+    </div>
+
+    <div id="modulo3">
+        <h2>Contattaci</h2>
+        <form action="pagina.jsp" method="post" id="form3">
+            <ul>
+                <li>
+                    <input type="text" name="nome" id="nome" placeholder="Nome" autocomplete="off">
+                    <span></span>
+                </li>
+                <li>
+                    <input type="text" name="cognome" id="cognome" placeholder="Cognome" autocomplete="off">
+                    <span></span>
+                </li>
+                <li>
+                    <input type="text" name="email" id="email" placeholder="Email" autocomplete="off">
+                    <span></span>
+                </li>
+                <li>
+                    <input type="text" name="tel" id="tel" placeholder="Telefono" autocomplete="off">
+                    <span></span>
+                </li>
+                <li>
+                    <textarea name="testo" id="testo" placeholder="Messaggio" rows="6" cols="45"
+                        autocomplete="off"></textarea>
+                    <span></span>
+                </li>
+                <li>
+                    <input type="checkbox" name="privacy" id="privacy">
+                    <label for="privacy">Accetto le condizioni sulla privacy</label>
+                    <span></span>
+                </li>
+                <li>
+                    <button id="button"><a href="home.html">Invia</a></button>
+                </li>
+            </ul>
+        </form>
+    </div>
+
+    <footer id="link">
+        <div class="logo">
+            <ul>
+                <li><a href="https://it-it.facebook.com/" target="_blank"></a></li>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+            </ul>
+        </div>
+
+        <div class="links">
+            <ul>
+                <li><a href="#">Audiodescrizione</a></li>
+                <li><a href="index.html" id="contatta">Contattaci</a></li>
+                <li><a href="#">Preferenza per i cookie</a></li>
+                <li><a href="#">Carte regalo</a></li>
+                <li><a href="#">Opportunità di lavoro</a></li>
+                <li><a href="#">Condizioni di utilizzo</a></li>
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Informazioni sull'Azienda</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>
